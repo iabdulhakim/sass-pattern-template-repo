@@ -1,0 +1,46 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-logo {
+}
+.site-logo__img {
+}
+.sitenav {
+    display: flex;
+    align-items: center;
+}
+.sitenav__link {
+    color: #333136;
+    font-family: 'Jost';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 3rem;
+}
+.sitenav__link:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.sitenav__link:active{
+    opacity: 1;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    .site-logo__img{
+        width: 70px;
+    }
+    .sitenav__link {
+        font-size: 1rem;
+    }
+}
